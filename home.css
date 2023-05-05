@@ -1,2 +1,114 @@
-body {
-ỵhgbaecd
+.nhom7 {
+    display: block;
+  }
+  .nhom7-header {
+    position: fixed;
+    width: 100%;
+  }
+  .nhom7-image {
+    width: 32px;
+    height: 32px;
+  }
+  .nhom7-content {
+    text-align: center;
+    padding: 100px;
+  }
+  .nhom7-form-group {
+    display: flex;
+    padding-bottom: 20px;
+  }
+  .nhom7-tinhthue {
+    padding-top: 40px;
+    border-bottom: 1px solid gray;
+    border-bottom-style: dashed;
+  }
+  
+  .nhom7-tinhthue {
+    width: 1319px;
+    height: 240px;
+    border-radius: 1px solid gray;
+    box-shadow: 1px;
+  }
+  .nhom7-tinhthue-left {
+    width: 800px;
+    height: 100%;
+    float: left;
+  }
+  .nhom7-tinhthue-right {
+    width: 500px;
+    float: right;
+    border: 1px solid black;
+    margin-top: -40px;
+    /* border-style: dashed; */
+    text-align: justify;
+  }
+  .nhom7-thue-label {
+    padding-right: 20px;
+  }
+  /* .nhom7-thue-input {
+    float: right;
+  }*/
+  .nhom7-dien-giai {
+    border-bottom: 1px solid gray;
+    border-bottom-style: dashed;
+  }
+  .nhom7-table-h4 {
+    text-align: justify;
+  }
+  .nhom7-table-table th,
+  .nhom7-table-table td {
+    border: 1px solid gray;
+  }
+  .nhom7-table-table th {
+    padding: 0px 25px 0px 30px;
+  }
+  .nhom7-title-1 h6 {
+    padding-top: 20px;
+    text-align: justify;
+    font-weight: 600;
+  }
+  .nhom7-title-2 {
+    text-align: justify;
+  }
+  .nhom7-tinhthue-right p {
+    padding: 0px 10px 0px 10px;
+  }
+  .nhom7-table-thue-content {
+    width: 1319px;
+    height: 263px;
+  }
+  .nhom7-table-thue {
+    float: left;
+  }
+  .nhom7-table-thue-hd {
+    float: right;
+    text-align: justify;
+    border: 1px solid black;
+    color: black;
+    margin: 38px 0px 0px 0px;
+    border-style: dashed;
+  }
+  .nhom7-table-thue-hd p {
+    padding: 0px 10px 0px 10px;
+  }
+  .nhom7-table-thue-hd a {
+    color: black;
+  }
+  .nhom7-table-thue-hd strong {
+    padding: 0px 0px 0px 10px;
+  }
+  .nhom7-diengiai-body {
+    text-align: justify;
+  }
+  .nhom7-luu-kq-p {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  /* aaaaaaaaaaaaaaaaaaaaaaa */
+  .nav-link {
+    color: black;
+  }
+  a.nav-link {
+    margin-left: 40px;
+  }
+  
