@@ -10,14 +10,8 @@
   height: 32px;
 }
 .nhom7-content {
-  padding: 100px 100px 30px 330px;
-}
-.nhom7-content-danhsach {
-  padding: 10px 100px 10px 100px;
-  width: 900px;
-  height: 565px;
-  border-radius: 12px;
-  border: 1px solid gray;
+  text-align: center;
+  padding: 100px;
 }
 .nhom7-form-group {
   display: flex;
@@ -116,16 +110,4 @@
 }
 a.nav-link {
   margin-left: 40px;
-}
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-.nhom7-content-danhsach button {
-  width: 75px;
-  right: 0;
-}
-.danhsach-header {
-  display: block;
 }
