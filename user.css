@@ -10,30 +10,24 @@
   height: 32px;
 }
 .nhom7-content {
-  padding: 100px 100px 30px 330px;
-}
-.nhom7-content-danhsach {
-  padding: 10px 100px 10px 100px;
-  width: 900px;
-  height: 565px;
-  border-radius: 12px;
-  border: 1px solid gray;
+  text-align: center;
+  padding: 100px;
 }
 .nhom7-form-group {
   display: flex;
   padding-bottom: 20px;
 }
-.nhom7-tinhthue {
-  padding-top: 40px;
-  border-bottom: 1px solid gray;
-  border-bottom-style: dashed;
+.nhom7-form-group1 {
+  display: flex;
+  padding-bottom: 20px;
+  padding-left: 20px;
 }
-
 .nhom7-tinhthue {
   width: 1319px;
   height: 240px;
   border-radius: 1px solid gray;
   box-shadow: 1px;
+  padding-top: 40px;
 }
 .nhom7-tinhthue-left {
   width: 800px;
@@ -54,10 +48,7 @@
 /* .nhom7-thue-input {
   float: right;
 }*/
-.nhom7-dien-giai {
-  border-bottom: 1px solid gray;
-  border-bottom-style: dashed;
-}
+
 .nhom7-table-h4 {
   text-align: justify;
 }
@@ -80,8 +71,11 @@
   padding: 0px 10px 0px 10px;
 }
 .nhom7-table-thue-content {
+  padding-top: 20px;
   width: 1319px;
-  height: 263px;
+  height: 283px;
+  border-top: 1px solid gray;
+  border-top-style: dashed;
 }
 .nhom7-table-thue {
   float: left;
@@ -108,7 +102,7 @@
 }
 .nhom7-luu-kq-p {
   cursor: pointer;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 /* aaaaaaaaaaaaaaaaaaaaaaa */
 .nav-link {
@@ -117,15 +111,21 @@
 a.nav-link {
   margin-left: 40px;
 }
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+.nhom7-diengiai-title {
+  border-top: 1px solid gray;
+  border-top-style: dashed;
 }
-.nhom7-content-danhsach button {
-  width: 75px;
-  right: 0;
-}
-.danhsach-header {
+/*  */
+.nhom7-ket-qua {
+  padding: 0px 0px 10px 0px;
   display: block;
+  /* position: absolute; */
+  /* border-bottom: 1px solid gray;
+  border-bottom-style: dashed; */
+}
+.nhom7-xacnhan-luu {
+  border: 0.1px solid gray;
+}
+.hide {
+  display: none;
 }
