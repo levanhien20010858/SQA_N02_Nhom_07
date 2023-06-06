@@ -15,7 +15,8 @@
 .nhom7-content-danhsach {
   padding: 10px 100px 10px 100px;
   width: 900px;
-  height: 565px;
+  height: 505px;
+  overflow: scroll;
   border-radius: 12px;
   border: 1px solid gray;
 }
@@ -127,5 +128,16 @@ footer {
   right: 0;
 }
 .danhsach-header {
-  display: block;
+  width: 751px;
+  display: flex;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+.danhsach-header button {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid gray;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  width: 70px;
 }
