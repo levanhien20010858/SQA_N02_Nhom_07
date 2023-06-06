@@ -35,12 +35,6 @@ class Lichsu
     for ($j = 0; $j < sizeof($array); $j++) {
       $sql = "DELETE FROM `history` WHERE history.id = $array[$j]";
       $result = $this->db->delete($sql);
-
-      if ($result) {
-        echo '<script language="javascript">
-            alert("Xóa thành công");
-            </script>';
-      }
     }
     return $result;
   }

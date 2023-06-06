@@ -55,7 +55,7 @@ if (isset($_POST['submitForm1'])) {
         <!-- Collapsible wrapper -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <!-- Navbar brand -->
-          <a class="navbar-brand mt-2 mt-lg-0" href="#">
+          <a class="navbar-brand mt-2 mt-lg-0" href="user.php">
             <img src="https://gudlogo.com/wp-content/uploads/2019/05/logo-chim-cu-meo-16-300x225.jpg" height="40" alt="Logo" loading="lazy" style="transform: scale(1.5); padding-left: 15px" />
           </a>
 
@@ -281,16 +281,16 @@ if (isset($_POST['submitForm1'])) {
         <!-- Section: Social media -->
         <section class="mb-4">
           <!-- Facebook -->
-          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/profile.php?id=100054347389810" role="button"><i class="fab fa-facebook-f"></i></a>
 
           <!-- Github -->
-          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/levanhien20010858/SQA_N02_Nhom_07" role="button"><i class="fab fa-github"></i></a>
         </section>
         <!-- Section: Social media -->
 
         <!-- Section: Text -->
         <section class="mb-4">
-          <p>© 2023 Copyright: Lê Văn Hiển</p>
+          <p>© 2023 Copyright: SQA_N02_Nhom_07</p>
         </section>
 
         <!-- Section: Text -->

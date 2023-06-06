@@ -10,13 +10,12 @@ include 'classes/lichsu.php';
 Session::checkSession();
 $class = new Lichsu();
 $data = $class->data();
-if (!empty($data)) {
-  if (isset($_POST['submitForm1'])) {
-    $array = $_POST['mang-gia-tri'];
-    $class->drop($array);
-  }
-}
 
+if (isset($_POST['submitForm1'])) {
+  $array = $_POST['mang-gia-tri'];
+  $class->drop($array);
+  header("Refresh:0");
+}
 
 ?>
 <!DOCTYPE html>
@@ -56,7 +55,7 @@ if (!empty($data)) {
         <!-- Collapsible wrapper -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <!-- Navbar brand -->
-          <a class="navbar-brand mt-2 mt-lg-0" href="#">
+          <a class="navbar-brand mt-2 mt-lg-0" href="user.php">
             <img src="https://gudlogo.com/wp-content/uploads/2019/05/logo-chim-cu-meo-16-300x225.jpg" height="40" alt="Logo" loading="lazy" style="transform: scale(1.5); padding-left: 15px" />
           </a>
 
@@ -113,7 +112,7 @@ if (!empty($data)) {
         <?php if (!empty($data)) { ?>
           <?php foreach ($data as $key => $value) { ?>
             <li class="list-group-item">
-              <input class="form-check-input" type="checkbox" value="" id="<?php echo $value["id"] ?>" />
+              <input class="form-check-input" type="checkbox" value="<?php echo $value["id"] ?>" id="<?php echo $value["id"] ?>" />
               <label class="form-check-label" for="<?php echo $value["id"] ?>">Thời gian:
                 <?php echo $value["thoigian"] ?></label>
               <p>Tổng thu nhập: <?php echo $value["tongthunhap"] ?></p>
@@ -139,7 +138,7 @@ if (!empty($data)) {
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingOneX">
             <button class="accordion-button" type="button" data-mdb-toggle="collapse" data-mdb-target="#flush-collapseOneX" aria-expanded="true" aria-controls="flush-collapseOneX">
-              © 2023 Copyright: Lê Văn Hiển
+              © 2023 Copyright: SQA_N02_Nhom_07
             </button>
           </h2>
           <div id="flush-collapseOneX" class="accordion-collapse collapse" aria-labelledby="flush-headingOneX" data-mdb-parent="#accordionFlushExampleX">
@@ -147,10 +146,10 @@ if (!empty($data)) {
               <!-- Section: Social media -->
               <section class="mb-4">
                 <!-- Facebook -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/profile.php?id=100054347389810" role="button"><i class="fab fa-facebook-f"></i></a>
 
                 <!-- Github -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/levanhien20010858/SQA_N02_Nhom_07" role="button"><i class="fab fa-github"></i></a>
               </section>
               <!-- Section: Social media -->
             </div>
@@ -184,16 +183,17 @@ if (!empty($data)) {
     // Lặp qua tất cả checkbox phụ và thiết lập trạng thái của chúng giống với checkbox trên cùng
     for (let i = 0; i < subCheckboxes.length; i++) {
       subCheckboxes[i].checked = masterCheckbox.checked;
-      if (selectedValues.includes(i)) {
-        // Giá trị 'giatri' tồn tại trong mảng selectedValues
-        var index = selectedValues.indexOf(i);
-        if (index !== -1) {
-          selectedValues.splice(index, 1);
-        }
-      } else {
-        // Giá trị 'giatri' không tồn tại trong mảng selectedValues
-        selectedValues.push(i);
-      }
+      var index = subCheckboxes[i].value;
+      // if (selectedValues.includes(index)) {
+      //   // Giá trị 'giatri' tồn tại trong mảng selectedValues
+      //   var index = selectedValues.indexOf(subCheckboxes[i].value);
+      //   if (index !== -1) {
+      //     selectedValues.splice(index, 1);
+      //   }
+      // } else {
+      //   // Giá trị 'giatri' không tồn tại trong mảng selectedValues
+      //   selectedValues.push(subCheckboxes[i].value);
+      // }
 
     }
 
@@ -204,15 +204,15 @@ if (!empty($data)) {
     subCheckboxes[i].addEventListener("change", function() {
       // Kiểm tra xem tất cả các checkbox phụ có được chọn hay không
       let allChecked = true;
-      if (selectedValues.includes(i)) {
+      if (selectedValues.includes(subCheckboxes[i].value)) {
         // Giá trị 'giatri' tồn tại trong mảng selectedValues
-        var index = selectedValues.indexOf(i);
+        var index = selectedValues.indexOf(subCheckboxes[i].value);
         if (index !== -1) {
           selectedValues.splice(index, 1);
         }
       } else {
         // Giá trị 'giatri' không tồn tại trong mảng selectedValues
-        selectedValues.push(i);
+        selectedValues.push(subCheckboxes[i].value);
       }
 
       for (let j = 0; j < subCheckboxes.length; j++) {
