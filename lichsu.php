@@ -36,9 +36,9 @@ if (isset($_POST['submitForm1'])) {
   <link rel="stylesheet" href="css/mdb.min.css" />
   <link rel="stylesheet" href="lichsu.css" />
   <style>
-    .navbar {
-      --mdb-navbar-hover-color: rgb(62, 112, 195);
-    }
+  .navbar {
+    --mdb-navbar-hover-color: rgb(62, 112, 195);
+  }
   </style>
 </head>
 
@@ -48,7 +48,9 @@ if (isset($_POST['submitForm1'])) {
       <!-- Container wrapper -->
       <div class="container-fluid">
         <!-- Toggle button -->
-        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
           <i class="fas fa-bars"></i>
         </button>
 
@@ -56,7 +58,8 @@ if (isset($_POST['submitForm1'])) {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <!-- Navbar brand -->
           <a class="navbar-brand mt-2 mt-lg-0" href="user.php">
-            <img src="https://gudlogo.com/wp-content/uploads/2019/05/logo-chim-cu-meo-16-300x225.jpg" height="40" alt="Logo" loading="lazy" style="transform: scale(1.5); padding-left: 15px" />
+            <img src="https://gudlogo.com/wp-content/uploads/2019/05/logo-chim-cu-meo-16-300x225.jpg" height="40"
+              alt="Logo" loading="lazy" style="transform: scale(1.5); padding-left: 15px" />
           </a>
 
           <!-- Left links me-auto-->
@@ -73,7 +76,8 @@ if (isset($_POST['submitForm1'])) {
           <!-- Left links -->
         </div>
         <div class="dropdown">
-          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
+            data-mdb-toggle="dropdown" aria-expanded="false">
             <i class="fa-regular fa-user fa-beat"></i>
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -110,18 +114,19 @@ if (isset($_POST['submitForm1'])) {
       <div class="list-group list-group-light">
 
         <?php if (!empty($data)) { ?>
-          <?php foreach ($data as $key => $value) { ?>
-            <li class="list-group-item">
-              <input class="form-check-input" type="checkbox" value="<?php echo $value["id"] ?>" id="<?php echo $value["id"] ?>" />
-              <label class="form-check-label" for="<?php echo $value["id"] ?>">Thời gian:
-                <?php echo $value["thoigian"] ?></label>
-              <p>Tổng thu nhập: <?php echo $value["tongthunhap"] ?></p>
-              <p>Số người phụ thuộc: <?php echo $value["songuoiphuthuoc"] ?></p>
-              <p>Thuế phải nộp: <?php echo $value["thuephainop"] ?></p>
-            </li>
-          <?php } ?>
+        <?php foreach ($data as $key => $value) { ?>
+        <li class="list-group-item">
+          <input class="form-check-input" type="checkbox" value="<?php echo $value["id"] ?>"
+            id="<?php echo $value["id"] ?>" />
+          <label class="form-check-label" for="<?php echo $value["id"] ?>">Thời gian:
+            <?php echo $value["thoigian"] ?></label>
+          <p>Tổng thu nhập: <?php echo $value["tongthunhap"] ?></p>
+          <p>Số người phụ thuộc: <?php echo $value["songuoiphuthuoc"] ?></p>
+          <p>Thuế phải nộp: <?php echo $value["thuephainop"] ?></p>
+        </li>
+        <?php } ?>
         <?php } else { ?>
-          <p>Không có dữ liệu.</p>
+        <p>Không có dữ liệu.</p>
         <?php } ?>
 
 
@@ -137,19 +142,25 @@ if (isset($_POST['submitForm1'])) {
       <div class="accordion accordion-borderless" id="accordionFlushExampleX">
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingOneX">
-            <button class="accordion-button" type="button" data-mdb-toggle="collapse" data-mdb-target="#flush-collapseOneX" aria-expanded="true" aria-controls="flush-collapseOneX">
+            <button class="accordion-button" type="button" data-mdb-toggle="collapse"
+              data-mdb-target="#flush-collapseOneX" aria-expanded="true" aria-controls="flush-collapseOneX">
               © 2023 Copyright: SQA_N02_Nhom_07
             </button>
           </h2>
-          <div id="flush-collapseOneX" class="accordion-collapse collapse" aria-labelledby="flush-headingOneX" data-mdb-parent="#accordionFlushExampleX">
+          <div id="flush-collapseOneX" class="accordion-collapse collapse" aria-labelledby="flush-headingOneX"
+            data-mdb-parent="#accordionFlushExampleX">
             <div class="accordion-body">
               <!-- Section: Social media -->
               <section class="mb-4">
                 <!-- Facebook -->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/profile.php?id=100054347389810" role="button"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1"
+                  href="https://www.facebook.com/profile.php?id=100054347389810" role="button"><i
+                    class="fab fa-facebook-f"></i></a>
 
                 <!-- Github -->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/levanhien20010858/SQA_N02_Nhom_07" role="button"><i class="fab fa-github"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1"
+                  href="https://github.com/levanhien20010858/SQA_N02_Nhom_07" role="button"><i
+                    class="fab fa-github"></i></a>
               </section>
               <!-- Section: Social media -->
             </div>
@@ -174,65 +185,65 @@ if (isset($_POST['submitForm1'])) {
 
 </html>
 <script>
-  // Lấy ra checkbox trên cùng và tất cả các checkbox phụ
-  const masterCheckbox = document.getElementById("masterCheckbox");
-  const subCheckboxes = document.getElementsByClassName("form-check-input");
-  let selectedValues = [];
-  // Khi checkbox trên cùng được thay đổi trạng thái
-  masterCheckbox.addEventListener("change", function() {
-    // Lặp qua tất cả checkbox phụ và thiết lập trạng thái của chúng giống với checkbox trên cùng
-    for (let i = 0; i < subCheckboxes.length; i++) {
-      subCheckboxes[i].checked = masterCheckbox.checked;
-      var index = subCheckboxes[i].value;
-      // if (selectedValues.includes(index)) {
-      //   // Giá trị 'giatri' tồn tại trong mảng selectedValues
-      //   var index = selectedValues.indexOf(subCheckboxes[i].value);
-      //   if (index !== -1) {
-      //     selectedValues.splice(index, 1);
-      //   }
-      // } else {
-      //   // Giá trị 'giatri' không tồn tại trong mảng selectedValues
-      //   selectedValues.push(subCheckboxes[i].value);
-      // }
+// Lấy ra checkbox trên cùng và tất cả các checkbox phụ
+const masterCheckbox = document.getElementById("masterCheckbox");
+const subCheckboxes = document.getElementsByClassName("form-check-input");
+let selectedValues = [];
+// Khi checkbox trên cùng được thay đổi trạng thái
+masterCheckbox.addEventListener("change", function() {
+  // Lặp qua tất cả checkbox phụ và thiết lập trạng thái của chúng giống với checkbox trên cùng
+  for (let i = 0; i < subCheckboxes.length; i++) {
+    subCheckboxes[i].checked = masterCheckbox.checked;
+    var index = subCheckboxes[i].value;
+    // if (selectedValues.includes(index)) {
+    //   // Giá trị 'giatri' tồn tại trong mảng selectedValues
+    //   var index = selectedValues.indexOf(subCheckboxes[i].value);
+    //   if (index !== -1) {
+    //     selectedValues.splice(index, 1);
+    //   }
+    // } else {
+    //   // Giá trị 'giatri' không tồn tại trong mảng selectedValues
+    //   selectedValues.push(subCheckboxes[i].value);
+    // }
 
+  }
+
+});
+
+// Khi một checkbox phụ được thay đổi trạng thái
+for (let i = 0; i < subCheckboxes.length; i++) {
+  subCheckboxes[i].addEventListener("change", function() {
+    // Kiểm tra xem tất cả các checkbox phụ có được chọn hay không
+    let allChecked = true;
+    if (selectedValues.includes(subCheckboxes[i].value)) {
+      // Giá trị 'giatri' tồn tại trong mảng selectedValues
+      var index = selectedValues.indexOf(subCheckboxes[i].value);
+      if (index !== -1) {
+        selectedValues.splice(index, 1);
+      }
+    } else {
+      // Giá trị 'giatri' không tồn tại trong mảng selectedValues
+      selectedValues.push(subCheckboxes[i].value);
     }
 
+    for (let j = 0; j < subCheckboxes.length; j++) {
+      if (!subCheckboxes[j].checked) {
+        allChecked = false;
+        break;
+      }
+    }
+
+    // Thiết lập trạng thái của checkbox trên cùng dựa trên kết quả trên
+    masterCheckbox.checked = allChecked;
+    if (masterCheckbox.checked == true) {
+      for (let j = 1; j < selectedValues.length; j++) {
+        if (!selectedValues.includes(j)) {
+          selectedValues.push(j);
+        }
+      }
+    }
+    document.getElementById("hidden").value = selectedValues;
+
   });
-
-  // Khi một checkbox phụ được thay đổi trạng thái
-  for (let i = 0; i < subCheckboxes.length; i++) {
-    subCheckboxes[i].addEventListener("change", function() {
-      // Kiểm tra xem tất cả các checkbox phụ có được chọn hay không
-      let allChecked = true;
-      if (selectedValues.includes(subCheckboxes[i].value)) {
-        // Giá trị 'giatri' tồn tại trong mảng selectedValues
-        var index = selectedValues.indexOf(subCheckboxes[i].value);
-        if (index !== -1) {
-          selectedValues.splice(index, 1);
-        }
-      } else {
-        // Giá trị 'giatri' không tồn tại trong mảng selectedValues
-        selectedValues.push(subCheckboxes[i].value);
-      }
-
-      for (let j = 0; j < subCheckboxes.length; j++) {
-        if (!subCheckboxes[j].checked) {
-          allChecked = false;
-          break;
-        }
-      }
-
-      // Thiết lập trạng thái của checkbox trên cùng dựa trên kết quả trên
-      masterCheckbox.checked = allChecked;
-      if (masterCheckbox.checked == true) {
-        for (let j = 1; j < selectedValues.length; j++) {
-          if (!selectedValues.includes(j)) {
-            selectedValues.push(j);
-          }
-        }
-      }
-      document.getElementById("hidden").value = selectedValues;
-
-    });
-  }
+}
 </script>
