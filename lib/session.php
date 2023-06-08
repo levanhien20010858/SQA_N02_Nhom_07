@@ -30,7 +30,7 @@ class Session
   public static function destroyPro()
   {
     session_destroy();
-    header("Location:index.php");
+    header("Location:home.php");
   }
   public static function checkSession()
   {
