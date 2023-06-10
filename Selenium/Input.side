@@ -1,0 +1,584 @@
+{
+  "id": "da9cafca-2f00-426f-9efe-cc7c9cde3a7a",
+  "version": "2.0",
+  "name": "Input",
+  "url": "http://localhost:81/tinhthuethunhapcanhan2/user.php",
+  "tests": [{
+    "id": "4bae80d1-0606-42d7-b54b-24cc5ae4a312",
+    "name": "wrong data type tong-thu-nhap",
+    "commands": [{
+      "id": "bbc385c2-02f2-44be-9b25-6f9c280e7642",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:81/tinhthuethunhapcanhan2/user.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d50144b-d341-4571-abcc-e1d8419f2c8e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "897x865",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "954f306e-288e-4442-9fdf-857283883dad",
+      "comment": "",
+      "command": "click",
+      "target": "id=tong-thu-nhap",
+      "targets": [
+        ["id=tong-thu-nhap", "id"],
+        ["name=tong-thu-nhap", "name"],
+        ["css=#tong-thu-nhap", "css:finder"],
+        ["xpath=//input[@id='tong-thu-nhap']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eae052c3-e2fc-4fe9-b0d7-f6b054b62349",
+      "comment": "",
+      "command": "type",
+      "target": "id=tong-thu-nhap",
+      "targets": [
+        ["id=tong-thu-nhap", "id"],
+        ["name=tong-thu-nhap", "name"],
+        ["css=#tong-thu-nhap", "css:finder"],
+        ["xpath=//input[@id='tong-thu-nhap']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2000000000"
+    }, {
+      "id": "b9d041a7-aa91-4c8f-ab78-39c6b2a15a6c",
+      "comment": "",
+      "command": "click",
+      "target": "id=so-nguoi-phu-thuoc",
+      "targets": [
+        ["id=so-nguoi-phu-thuoc", "id"],
+        ["name=so-nguoi-phu-thuoc", "name"],
+        ["css=#so-nguoi-phu-thuoc", "css:finder"],
+        ["xpath=//input[@id='so-nguoi-phu-thuoc']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd2e1100-644f-4578-9847-a0042a7c04a0",
+      "comment": "",
+      "command": "type",
+      "target": "id=so-nguoi-phu-thuoc",
+      "targets": [
+        ["id=so-nguoi-phu-thuoc", "id"],
+        ["name=so-nguoi-phu-thuoc", "name"],
+        ["css=#so-nguoi-phu-thuoc", "css:finder"],
+        ["xpath=//input[@id='so-nguoi-phu-thuoc']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "54101951-0f79-47ae-a5b4-e88e7e985647",
+      "comment": "",
+      "command": "click",
+      "target": "id=ghi-ket-qua",
+      "targets": [
+        ["id=ghi-ket-qua", "id"],
+        ["css=#ghi-ket-qua", "css:finder"],
+        ["xpath=//button[@id='ghi-ket-qua']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ghi kết quả')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb31548c-076e-4c0e-8745-191dafcf38b0",
+      "comment": "",
+      "command": "click",
+      "target": "name=submitForm1",
+      "targets": [
+        ["name=submitForm1", "name"],
+        ["css=button:nth-child(4)", "css:finder"],
+        ["xpath=//button[@name='submitForm1']", "xpath:attributes"],
+        ["xpath=//div[@id='ket-qua']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d2e130cd-5686-49fd-9ccb-020a2488fd3d",
+    "name": "wrong data type so-nguoi-phu-thuoc",
+    "commands": [{
+      "id": "44e2aa27-6246-40e6-b9ff-c7afb1ae24eb",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:81/tinhthuethunhapcanhan2/user.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fcf37d3d-1983-4458-b034-9731f70250b2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "898x864",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e090887-8611-41ed-91f3-483b38b02cb0",
+      "comment": "",
+      "command": "click",
+      "target": "id=tong-thu-nhap",
+      "targets": [
+        ["id=tong-thu-nhap", "id"],
+        ["name=tong-thu-nhap", "name"],
+        ["css=#tong-thu-nhap", "css:finder"],
+        ["xpath=//input[@id='tong-thu-nhap']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e3102a8-e7c5-4b68-b8e2-f2b7d93d60f1",
+      "comment": "",
+      "command": "type",
+      "target": "id=tong-thu-nhap",
+      "targets": [
+        ["id=tong-thu-nhap", "id"],
+        ["name=tong-thu-nhap", "name"],
+        ["css=#tong-thu-nhap", "css:finder"],
+        ["xpath=//input[@id='tong-thu-nhap']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "200000000"
+    }, {
+      "id": "f47708cf-a269-459d-be2a-9d6f36190138",
+      "comment": "",
+      "command": "click",
+      "target": "id=so-nguoi-phu-thuoc",
+      "targets": [
+        ["id=so-nguoi-phu-thuoc", "id"],
+        ["name=so-nguoi-phu-thuoc", "name"],
+        ["css=#so-nguoi-phu-thuoc", "css:finder"],
+        ["xpath=//input[@id='so-nguoi-phu-thuoc']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a08d7a8-272a-4eab-9c48-5d2dd2c3f217",
+      "comment": "",
+      "command": "type",
+      "target": "id=so-nguoi-phu-thuoc",
+      "targets": [
+        ["id=so-nguoi-phu-thuoc", "id"],
+        ["name=so-nguoi-phu-thuoc", "name"],
+        ["css=#so-nguoi-phu-thuoc", "css:finder"],
+        ["xpath=//input[@id='so-nguoi-phu-thuoc']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42bcc79e-90a6-42a7-b5fb-e7e7f52f9d2a",
+      "comment": "",
+      "command": "click",
+      "target": "id=so-nguoi-phu-thuoc",
+      "targets": [
+        ["id=so-nguoi-phu-thuoc", "id"],
+        ["name=so-nguoi-phu-thuoc", "name"],
+        ["css=#so-nguoi-phu-thuoc", "css:finder"],
+        ["xpath=//input[@id='so-nguoi-phu-thuoc']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf58a9a1-a61f-40da-87f2-68c706e4dba7",
+      "comment": "",
+      "command": "type",
+      "target": "id=so-nguoi-phu-thuoc",
+      "targets": [
+        ["id=so-nguoi-phu-thuoc", "id"],
+        ["name=so-nguoi-phu-thuoc", "name"],
+        ["css=#so-nguoi-phu-thuoc", "css:finder"],
+        ["xpath=//input[@id='so-nguoi-phu-thuoc']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "a2428df5-cfa8-4db6-9729-d23e575931ae",
+      "comment": "",
+      "command": "click",
+      "target": "id=ghi-ket-qua",
+      "targets": [
+        ["id=ghi-ket-qua", "id"],
+        ["css=#ghi-ket-qua", "css:finder"],
+        ["xpath=//button[@id='ghi-ket-qua']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ghi kết quả')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f093e0f7-2a81-4949-afcb-36a1cfa3f38d",
+      "comment": "",
+      "command": "click",
+      "target": "name=submitForm1",
+      "targets": [
+        ["name=submitForm1", "name"],
+        ["css=button:nth-child(4)", "css:finder"],
+        ["xpath=//button[@name='submitForm1']", "xpath:attributes"],
+        ["xpath=//div[@id='ket-qua']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8080360c-f851-4e05-bb0d-e11758ec25b0",
+    "name": "wrong data type tong-thu-nhap and so-nguoi-phu-thuoc ",
+    "commands": [{
+      "id": "b7d2c17c-79b7-40bd-9717-8561e2a21ec5",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:81/tinhthuethunhapcanhan2/user.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09e4877b-2ea9-443d-be3b-96003ffabeff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "898x864",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ed58f85-13c6-4f00-a790-090711c93dfe",
+      "comment": "",
+      "command": "click",
+      "target": "id=tong-thu-nhap",
+      "targets": [
+        ["id=tong-thu-nhap", "id"],
+        ["name=tong-thu-nhap", "name"],
+        ["css=#tong-thu-nhap", "css:finder"],
+        ["xpath=//input[@id='tong-thu-nhap']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7b26517-6b67-406d-a0fb-051d3932013f",
+      "comment": "",
+      "command": "type",
+      "target": "id=tong-thu-nhap",
+      "targets": [
+        ["id=tong-thu-nhap", "id"],
+        ["name=tong-thu-nhap", "name"],
+        ["css=#tong-thu-nhap", "css:finder"],
+        ["xpath=//input[@id='tong-thu-nhap']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2000000000"
+    }, {
+      "id": "3093ad96-a2af-4785-8296-9926c4bdeb10",
+      "comment": "",
+      "command": "click",
+      "target": "id=so-nguoi-phu-thuoc",
+      "targets": [
+        ["id=so-nguoi-phu-thuoc", "id"],
+        ["name=so-nguoi-phu-thuoc", "name"],
+        ["css=#so-nguoi-phu-thuoc", "css:finder"],
+        ["xpath=//input[@id='so-nguoi-phu-thuoc']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75a8cf39-27be-4e17-97a4-4e826f80c2a9",
+      "comment": "",
+      "command": "type",
+      "target": "id=so-nguoi-phu-thuoc",
+      "targets": [
+        ["id=so-nguoi-phu-thuoc", "id"],
+        ["name=so-nguoi-phu-thuoc", "name"],
+        ["css=#so-nguoi-phu-thuoc", "css:finder"],
+        ["xpath=//input[@id='so-nguoi-phu-thuoc']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "4316522f-2d43-42bb-b7a0-bcddfb27c998",
+      "comment": "",
+      "command": "click",
+      "target": "id=ghi-ket-qua",
+      "targets": [
+        ["id=ghi-ket-qua", "id"],
+        ["css=#ghi-ket-qua", "css:finder"],
+        ["xpath=//button[@id='ghi-ket-qua']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ghi kết quả')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e72b0fee-1f66-4250-8e11-6d3f27a746dc",
+      "comment": "",
+      "command": "click",
+      "target": "name=submitForm1",
+      "targets": [
+        ["name=submitForm1", "name"],
+        ["css=button:nth-child(4)", "css:finder"],
+        ["xpath=//button[@name='submitForm1']", "xpath:attributes"],
+        ["xpath=//div[@id='ket-qua']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d4b08825-8855-47ed-99cc-af7173b48a10",
+    "name": "tong-thu-nhap is empty",
+    "commands": [{
+      "id": "4a0a7b8b-5c09-4ee8-8551-523b866050b6",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:81/tinhthuethunhapcanhan2/user.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c152bcf8-3634-4f04-8d3c-8e017d4d5e2d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "898x864",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2040ffa-4fda-4e43-8011-ec9654ae5d9a",
+      "comment": "",
+      "command": "click",
+      "target": "id=so-nguoi-phu-thuoc",
+      "targets": [
+        ["id=so-nguoi-phu-thuoc", "id"],
+        ["name=so-nguoi-phu-thuoc", "name"],
+        ["css=#so-nguoi-phu-thuoc", "css:finder"],
+        ["xpath=//input[@id='so-nguoi-phu-thuoc']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4edb8cb7-eff7-41fc-9d55-73c7cb7019c3",
+      "comment": "",
+      "command": "type",
+      "target": "id=so-nguoi-phu-thuoc",
+      "targets": [
+        ["id=so-nguoi-phu-thuoc", "id"],
+        ["name=so-nguoi-phu-thuoc", "name"],
+        ["css=#so-nguoi-phu-thuoc", "css:finder"],
+        ["xpath=//input[@id='so-nguoi-phu-thuoc']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "2e6a6fad-f85f-4130-933b-b770b2701008",
+      "comment": "",
+      "command": "click",
+      "target": "id=ghi-ket-qua",
+      "targets": [
+        ["id=ghi-ket-qua", "id"],
+        ["css=#ghi-ket-qua", "css:finder"],
+        ["xpath=//button[@id='ghi-ket-qua']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ghi kết quả')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f56e472-b818-4f5c-9705-f0753c08fa9a",
+      "comment": "",
+      "command": "click",
+      "target": "name=submitForm1",
+      "targets": [
+        ["name=submitForm1", "name"],
+        ["css=button:nth-child(4)", "css:finder"],
+        ["xpath=//button[@name='submitForm1']", "xpath:attributes"],
+        ["xpath=//div[@id='ket-qua']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "415ce27e-0338-4ea4-89b4-34d5501dc651",
+    "name": "so-nguoi-phu-thuoc is empty",
+    "commands": [{
+      "id": "aa3fe4b9-23e4-4b69-a83a-de00ecef24db",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:81/tinhthuethunhapcanhan2/user.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1bc41d5b-b4e2-4006-adf1-021e9d804592",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "898x864",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d13d16e4-1cd0-4c2d-a210-55b802f53577",
+      "comment": "",
+      "command": "click",
+      "target": "id=tong-thu-nhap",
+      "targets": [
+        ["id=tong-thu-nhap", "id"],
+        ["name=tong-thu-nhap", "name"],
+        ["css=#tong-thu-nhap", "css:finder"],
+        ["xpath=//input[@id='tong-thu-nhap']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f65362d4-d01c-4ae8-bf98-3ba4d43028d4",
+      "comment": "",
+      "command": "click",
+      "target": "id=so-nguoi-phu-thuoc",
+      "targets": [
+        ["id=so-nguoi-phu-thuoc", "id"],
+        ["name=so-nguoi-phu-thuoc", "name"],
+        ["css=#so-nguoi-phu-thuoc", "css:finder"],
+        ["xpath=//input[@id='so-nguoi-phu-thuoc']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc08fea3-bccb-41a4-8f2f-c2e36861558e",
+      "comment": "",
+      "command": "click",
+      "target": "id=tong-thu-nhap",
+      "targets": [
+        ["id=tong-thu-nhap", "id"],
+        ["name=tong-thu-nhap", "name"],
+        ["css=#tong-thu-nhap", "css:finder"],
+        ["xpath=//input[@id='tong-thu-nhap']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93c5cc90-8554-45e5-8cad-56f0ad0e23c9",
+      "comment": "",
+      "command": "type",
+      "target": "id=tong-thu-nhap",
+      "targets": [
+        ["id=tong-thu-nhap", "id"],
+        ["name=tong-thu-nhap", "name"],
+        ["css=#tong-thu-nhap", "css:finder"],
+        ["xpath=//input[@id='tong-thu-nhap']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2000000000"
+    }, {
+      "id": "e8afcdc8-1892-4ff0-ae63-5fb90f9ed553",
+      "comment": "",
+      "command": "click",
+      "target": "id=ghi-ket-qua",
+      "targets": [
+        ["id=ghi-ket-qua", "id"],
+        ["css=#ghi-ket-qua", "css:finder"],
+        ["xpath=//button[@id='ghi-ket-qua']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ghi kết quả')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c81f53a-7cc4-4c6b-ac66-e6c07a6d8909",
+      "comment": "",
+      "command": "click",
+      "target": "name=submitForm1",
+      "targets": [
+        ["name=submitForm1", "name"],
+        ["css=button:nth-child(4)", "css:finder"],
+        ["xpath=//button[@name='submitForm1']", "xpath:attributes"],
+        ["xpath=//div[@id='ket-qua']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e233d21b-73aa-4d89-a423-c67947bdc6f2",
+    "name": "tong-thu-nhap and  so-nguoi-phu-thuoc is empty",
+    "commands": [{
+      "id": "2d0353ce-eab0-4a22-aebb-094832da92cd",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:81/tinhthuethunhapcanhan2/user.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2005d7f2-b5ba-4627-9983-53fcc245d4a9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x880",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6bc0c950-ac98-4aff-97ad-f2a57c5f11b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=tong-thu-nhap",
+      "targets": [
+        ["id=tong-thu-nhap", "id"],
+        ["name=tong-thu-nhap", "name"],
+        ["css=#tong-thu-nhap", "css:finder"],
+        ["xpath=//input[@id='tong-thu-nhap']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0d1ce1e-dc7d-4569-bb62-fe020432d16c",
+      "comment": "",
+      "command": "click",
+      "target": "id=so-nguoi-phu-thuoc",
+      "targets": [
+        ["id=so-nguoi-phu-thuoc", "id"],
+        ["name=so-nguoi-phu-thuoc", "name"],
+        ["css=#so-nguoi-phu-thuoc", "css:finder"],
+        ["xpath=//input[@id='so-nguoi-phu-thuoc']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23eba361-d450-4825-8d67-8f8ed43f0449",
+      "comment": "",
+      "command": "click",
+      "target": "id=ghi-ket-qua",
+      "targets": [
+        ["id=ghi-ket-qua", "id"],
+        ["css=#ghi-ket-qua", "css:finder"],
+        ["xpath=//button[@id='ghi-ket-qua']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ghi kết quả')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecd54f4f-eccd-4879-81b7-55ef27d75e4b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nhom7-xacnhan-luu",
+      "targets": [
+        ["css=.nhom7-xacnhan-luu", "css:finder"],
+        ["xpath=//div[@id='ket-qua']/div", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a83370e-87a3-40c3-9a4e-98b9e4e952c3",
+      "comment": "",
+      "command": "click",
+      "target": "name=submitForm1",
+      "targets": [
+        ["name=submitForm1", "name"],
+        ["css=button:nth-child(4)", "css:finder"],
+        ["xpath=//button[@name='submitForm1']", "xpath:attributes"],
+        ["xpath=//div[@id='ket-qua']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "037d9922-5e9a-456f-999a-194fb062a84f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:81/", "http://localhost:81/tinhthuethunhapcanhan2/user.php"],
+  "plugins": []
+}
