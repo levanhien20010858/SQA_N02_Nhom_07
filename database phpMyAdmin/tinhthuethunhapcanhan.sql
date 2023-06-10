@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: localhost
--- Thời gian đã tạo: Th6 08, 2023 lúc 03:34 PM
+-- Thời gian đã tạo: Th6 10, 2023 lúc 04:51 AM
 -- Phiên bản máy phục vụ: 10.4.25-MariaDB
 -- Phiên bản PHP: 8.1.10
 
@@ -41,7 +41,8 @@ CREATE TABLE `customer` (
 INSERT INTO `customer` (`id`, `fullname`, `email`, `password`) VALUES
 (1, 'hiendz', 'levanhien17@gmail.com', '$2y$10$mVuGEiUYG8uEEnnXTG1X9O3Tp0q3ar64mDwnMk9Np65ZvBfx7dQr6'),
 (2, 'hiendz', 'levanhien1711@gmail.com', '$2y$10$4eMeKVOO4Ph8FFTZf./tpuw0r5S5IwIFLO4Nddw6eFNQlYJ85.8SO'),
-(3, 'hiendz', 'levanhien171100@gmail.com', '$2y$10$yRwiXAWPJ7uyrO66lZFLzuEWBVPGpWOOJSVC./yTRXSRnNuTTgIiG');
+(3, 'hiendz', 'levanhien171100@gmail.com', '$2y$10$yRwiXAWPJ7uyrO66lZFLzuEWBVPGpWOOJSVC./yTRXSRnNuTTgIiG'),
+(9, 'levanhien', 'levanhienss@gmail.com', '$2y$10$RDy0ad5OmuKD.yeeoHRAe.8lWEYMx6fc0BUVePa55gnBSb75T0J6C');
 
 -- --------------------------------------------------------
 
@@ -67,7 +68,20 @@ INSERT INTO `history` (`id`, `customer_id`, `tongthunhap`, `songuoiphuthuoc`, `t
 (17, 2, 50000000, 0, 6500000, '2023-06-06 13:26:35'),
 (18, 2, 23000000, 0, 1050000, '2023-06-06 13:33:32'),
 (53, 1, 0, 0, 0, '2023-06-08 18:27:49'),
-(54, 1, 0, 0, 0, '2023-06-08 18:43:55');
+(54, 1, 0, 0, 0, '2023-06-08 18:43:55'),
+(55, 1, 2000000000, 1, 684760000, '2023-06-09 11:30:50'),
+(56, 1, 2000000000, 1, 684760000, '2023-06-09 11:30:58'),
+(57, 1, 2000000000, 2, 683220000, '2023-06-09 11:31:39'),
+(58, 1, 2000000000, 2, 683220000, '2023-06-09 11:31:49'),
+(59, 1, 200000000, 3, 51680000, '2023-06-09 11:32:11'),
+(60, 1, 200000000, 3, 51680000, '2023-06-09 11:32:23'),
+(61, 1, 0, 1, 0, '2023-06-09 11:32:39'),
+(62, 1, 0, 1, 0, '2023-06-09 11:32:46'),
+(63, 1, 0, 0, 0, '2023-06-09 11:32:56'),
+(64, 1, 0, 0, 0, '2023-06-09 11:34:20'),
+(65, 1, 0, 0, 0, '2023-06-09 11:34:29'),
+(66, 1, 2000000000, 0, 686300000, '2023-06-09 11:34:46'),
+(67, 1, 2000000000, 0, 686300000, '2023-06-09 11:34:59');
 
 --
 -- Chỉ mục cho các bảng đã đổ
@@ -94,13 +108,13 @@ ALTER TABLE `history`
 -- AUTO_INCREMENT cho bảng `customer`
 --
 ALTER TABLE `customer`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT cho bảng `history`
 --
 ALTER TABLE `history`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=55;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=68;
 
 --
 -- Các ràng buộc cho các bảng đã đổ
